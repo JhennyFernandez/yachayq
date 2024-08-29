@@ -122,9 +122,19 @@ button {
 }
 /*Responsive*/
 
-/*Dispositivo movil*/
-@media (min-width:420px) {
-
+@media (min-width: 420px) and (max-width: 767px) {
+    .card {
+        width: 90px;
+        height: 90px;
+    }
+    .card-front, .card-back {
+        font-size: 34pt;
+        line-height: 90px;
+    }
+    .stats {
+        font-size: 13pt;
+    }
+}
 }
 /*Tablet*/
 @media (min-width:768px) {
