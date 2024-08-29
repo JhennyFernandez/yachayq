@@ -37,11 +37,15 @@
 /*Responsive*/
 
 /*Dispositivo movil*/
-@media (min-width:420px) {
+@media (min-width: 420px) and (max-width: 767px) { /*cambio de fuentesize*/
 	#banner h2{
-		font-size: 30px;
+		font-size: 20px;
+	}
+	#titulo, #bienvenidos {
+		padding: 30px;
 	}
 }
+
 /*Tablet*/
 @media (min-width:768px) {
 	#banner {
