@@ -14,7 +14,9 @@
 	padding: 15px;
 }
 
-
+.contenedor {
+    width: 90%;
+}
 .controls {
     display: flex;
     gap: 20px;
